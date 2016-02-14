@@ -1,0 +1,231 @@
+[brundle]s1567343: sh ./runFromShell.sh 
+15/10/18 11:48:54 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+Deleted /user/s1567343/data/output
+15/10/18 11:48:56 WARN streaming.StreamJob: -file option is deprecated, please use generic option -files instead.
+15/10/18 11:48:57 WARN streaming.StreamJob: -jobconf option is deprecated, please use -D instead.
+15/10/18 11:48:57 INFO Configuration.deprecation: mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces
+15/10/18 11:48:57 INFO Configuration.deprecation: mapred.job.name is deprecated. Instead, use mapreduce.job.name
+packageJobJar: [mapTwoWordsWithCombiner.py, /tmp/hadoop-unjar6313529987167058910/] [] /tmp/streamjob7705432953589212575.jar tmpDir=null
+15/10/18 11:48:58 INFO client.RMProxy: Connecting to ResourceManager at strathisla.inf.ed.ac.uk/129.215.24.125:8032
+15/10/18 11:48:58 INFO client.RMProxy: Connecting to ResourceManager at strathisla.inf.ed.ac.uk/129.215.24.125:8032
+15/10/18 11:49:00 INFO mapred.FileInputFormat: Total input paths to process : 36
+15/10/18 11:49:00 INFO mapreduce.JobSubmitter: number of splits:36
+15/10/18 11:49:01 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1444115825080_9104
+15/10/18 11:49:01 INFO impl.YarnClientImpl: Submitted application application_1444115825080_9104
+15/10/18 11:49:01 INFO mapreduce.Job: The url to track the job: http://strathisla.inf.ed.ac.uk:8088/proxy/application_1444115825080_9104/
+15/10/18 11:49:01 INFO mapreduce.Job: Running job: job_1444115825080_9104
+15/10/18 11:49:07 INFO mapreduce.Job: Job job_1444115825080_9104 running in uber mode : false
+15/10/18 11:49:07 INFO mapreduce.Job:  map 0% reduce 0%
+15/10/18 11:49:17 INFO mapreduce.Job:  map 10% reduce 0%
+15/10/18 11:49:18 INFO mapreduce.Job:  map 11% reduce 0%
+15/10/18 11:49:20 INFO mapreduce.Job:  map 25% reduce 0%
+15/10/18 11:49:21 INFO mapreduce.Job:  map 30% reduce 0%
+15/10/18 11:49:22 INFO mapreduce.Job:  map 36% reduce 0%
+15/10/18 11:49:23 INFO mapreduce.Job:  map 41% reduce 0%
+15/10/18 11:49:24 INFO mapreduce.Job:  map 46% reduce 0%
+15/10/18 11:49:25 INFO mapreduce.Job:  map 50% reduce 0%
+15/10/18 11:49:26 INFO mapreduce.Job:  map 53% reduce 0%
+15/10/18 11:49:27 INFO mapreduce.Job:  map 57% reduce 0%
+15/10/18 11:49:29 INFO mapreduce.Job:  map 61% reduce 0%
+15/10/18 11:49:30 INFO mapreduce.Job:  map 63% reduce 0%
+15/10/18 11:49:32 INFO mapreduce.Job:  map 67% reduce 0%
+15/10/18 11:49:33 INFO mapreduce.Job:  map 69% reduce 0%
+15/10/18 11:49:34 INFO mapreduce.Job:  map 73% reduce 0%
+15/10/18 11:49:35 INFO mapreduce.Job:  map 74% reduce 6%
+15/10/18 11:49:36 INFO mapreduce.Job:  map 75% reduce 6%
+15/10/18 11:49:37 INFO mapreduce.Job:  map 77% reduce 12%
+15/10/18 11:49:38 INFO mapreduce.Job:  map 77% reduce 15%
+15/10/18 11:49:39 INFO mapreduce.Job:  map 78% reduce 16%
+15/10/18 11:49:40 INFO mapreduce.Job:  map 79% reduce 17%
+15/10/18 11:49:41 INFO mapreduce.Job:  map 80% reduce 18%
+15/10/18 11:49:42 INFO mapreduce.Job:  map 81% reduce 19%
+15/10/18 11:49:43 INFO mapreduce.Job:  map 82% reduce 19%
+15/10/18 11:49:44 INFO mapreduce.Job:  map 84% reduce 19%
+15/10/18 11:49:45 INFO mapreduce.Job:  map 86% reduce 19%
+15/10/18 11:49:46 INFO mapreduce.Job:  map 88% reduce 19%
+15/10/18 11:49:47 INFO mapreduce.Job:  map 90% reduce 19%
+15/10/18 11:49:48 INFO mapreduce.Job:  map 90% reduce 20%
+15/10/18 11:49:50 INFO mapreduce.Job:  map 90% reduce 22%
+15/10/18 11:49:51 INFO mapreduce.Job:  map 91% reduce 22%
+15/10/18 11:49:52 INFO mapreduce.Job:  map 91% reduce 24%
+15/10/18 11:49:53 INFO mapreduce.Job:  map 93% reduce 25%
+15/10/18 11:49:54 INFO mapreduce.Job:  map 93% reduce 26%
+15/10/18 11:49:56 INFO mapreduce.Job:  map 93% reduce 28%
+15/10/18 11:49:57 INFO mapreduce.Job:  map 94% reduce 28%
+15/10/18 11:50:02 INFO mapreduce.Job:  map 94% reduce 29%
+15/10/18 11:50:05 INFO mapreduce.Job:  map 94% reduce 30%
+15/10/18 11:50:06 INFO mapreduce.Job:  map 95% reduce 30%
+15/10/18 11:50:08 INFO mapreduce.Job:  map 96% reduce 30%
+15/10/18 11:50:10 INFO mapreduce.Job:  map 97% reduce 30%
+15/10/18 11:50:14 INFO mapreduce.Job:  map 98% reduce 31%
+15/10/18 11:50:19 INFO mapreduce.Job:  map 100% reduce 31%
+15/10/18 11:50:22 INFO mapreduce.Job:  map 100% reduce 32%
+15/10/18 11:50:23 INFO mapreduce.Job:  map 100% reduce 33%
+15/10/18 11:50:24 INFO mapreduce.Job:  map 100% reduce 35%
+15/10/18 11:50:25 INFO mapreduce.Job:  map 100% reduce 51%
+15/10/18 11:50:26 INFO mapreduce.Job:  map 100% reduce 81%
+15/10/18 11:50:27 INFO mapreduce.Job:  map 100% reduce 92%
+15/10/18 11:50:28 INFO mapreduce.Job:  map 100% reduce 99%
+15/10/18 11:50:29 INFO mapreduce.Job:  map 100% reduce 100%
+15/10/18 11:50:32 INFO mapreduce.Job: Job job_1444115825080_9104 completed successfully
+15/10/18 11:50:33 INFO mapreduce.Job: Counters: 51
+	File System Counters
+		FILE: Number of bytes read=1908880864
+		FILE: Number of bytes written=2862741300
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=656886484
+		HDFS: Number of bytes written=136098775
+		HDFS: Number of read operations=258
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=100
+	Job Counters 
+		Killed map tasks=4
+		Launched map tasks=40
+		Launched reduce tasks=50
+		Data-local map tasks=28
+		Rack-local map tasks=12
+		Total time spent by all maps in occupied slots (ms)=9848040
+		Total time spent by all reduces in occupied slots (ms)=24335616
+		Total time spent by all map tasks (ms)=1231005
+		Total time spent by all reduce tasks (ms)=3041952
+		Total vcore-seconds taken by all map tasks=1231005
+		Total vcore-seconds taken by all reduce tasks=3041952
+		Total megabyte-seconds taken by all map tasks=1260549120
+		Total megabyte-seconds taken by all reduce tasks=3114958848
+	Map-Reduce Framework
+		Map input records=1865580
+		Map output records=121647869
+		Map output bytes=3114788328
+		Map output materialized bytes=950831527
+		Input split bytes=4932
+		Combine input records=121647869
+		Combine output records=31564056
+		Reduce input groups=8136406
+		Reduce shuffle bytes=950831527
+		Reduce input records=31564056
+		Reduce output records=8136406
+		Spilled Records=94692168
+		Shuffled Maps =1800
+		Failed Shuffles=0
+		Merged Map outputs=1800
+		GC time elapsed (ms)=18730
+		CPU time spent (ms)=1101430
+		Physical memory (bytes) snapshot=18584625152
+		Virtual memory (bytes) snapshot=164840292352
+		Total committed heap usage (bytes)=12114722816
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=656881552
+	File Output Format Counters 
+		Bytes Written=136098775
+15/10/18 11:50:33 INFO streaming.StreamJob: Output directory: /user/s1567343/data/output
+15/10/18 11:50:37 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:37 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:38 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:38 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:39 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:39 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:40 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:40 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:40 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:41 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:41 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:42 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:42 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:43 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:43 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:44 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:44 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:45 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:45 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:46 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:46 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:47 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:47 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:48 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:48 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:49 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:49 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:50 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:50 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:51 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:51 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:52 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:52 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:53 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:53 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:54 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:54 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:55 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:55 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:56 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:56 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:56 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:57 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:57 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:58 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:58 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:59 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:50:59 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:00 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:00 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:01 WARN hdfs.DFSClient: DFSInputStream has been closed already
+rm: `/user/s1567343/data/input/word_pairs/*': No such file or directory
+15/10/18 11:51:08 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:09 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:09 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:10 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:10 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:11 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:11 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:11 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:12 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:12 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:12 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:13 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:13 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:14 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:14 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:14 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:15 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:15 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:15 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:16 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:16 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:17 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:17 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:17 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:18 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:18 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:19 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:19 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:19 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:20 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:22 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:23 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:23 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:23 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:24 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:24 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:25 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:25 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:25 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:26 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:26 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:27 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:27 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:28 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:28 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:28 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:29 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:29 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:30 WARN hdfs.DFSClient: DFSInputStream has been closed already
+15/10/18 11:51:30 WARN hdfs.DFSClient: DFSInputStream has been closed already
